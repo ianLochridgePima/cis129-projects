@@ -1,0 +1,14 @@
+# CIS129
+# Ian Lochridge
+# 4/29/25
+# This program employs check protection to an inputted value
+
+def checkProtection(dollarAmount):
+    return f'[{dollarAmount:*>10}]'  #return formatted string
+
+def main():
+    print("Please input a dollar amount:")  #print instructions
+    dollarAmount = float(input(""))  #take user input
+    print(checkProtection(dollarAmount))  #print and call func
+    
+main()  #call main
